@@ -23,8 +23,7 @@ public class Maincontroller {
 	@Autowired
 	private InfoService infoservice;
 
-	@Autowired
-	private InfoDao infodao;
+
 
 	@RequestMapping("/addin")
 	public String showform(Model m) {
